@@ -1,0 +1,95 @@
+############################
+# OS / Editor junk
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode / JetBrains / STS / Eclipse
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache/
+
+############################
+# Logs & temp files
+############################
+logs/
+*.log
+*.tmp
+*.swp
+*.swo
+hs_err_pid*.log
+
+############################
+# Java / Maven / Gradle
+############################
+target/
+build/
+out/
+.mvn/wrapper/maven-wrapper.jar.backup
+
+# Test reports
+surefire-reports/
+failsafe-reports/
+
+# Heap dumps
+*.hprof
+
+############################
+# Spring Boot
+############################
+*.pid
+*.orig
+
+############################
+# Env / secrets
+############################
+.env
+.env.*
+!*.example
+
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Docker / local volumes
+docker-data/
+postgres-data/
+kafka-data/
+
+############################
+# Node / Next.js (frontend)
+############################
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/.vercel/
+frontend/dist/
+frontend/.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################
+# Coverage / reports
+############################
+coverage/
+frontend/coverage/
+backend/coverage/
+
+############################
+# Kubernetes local secrets
+############################
+k8s/overlays/**/secret-*.yaml
