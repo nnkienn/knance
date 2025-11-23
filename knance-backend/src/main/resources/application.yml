@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: knance-backend
+
+  profiles:
+    # Nếu không set gì, Spring sẽ chạy profile dev
+    default: dev
